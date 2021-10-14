@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* banner */
+#banner{
+	width: 88%;
+	margin: 0 auto;
+}
+.carousel-inner{
+	width: 100%;
+	height: 450px;
+}
+.carousel-inner .carousel-item  img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+/* Kết thúc banner */
+
+
+/* sản phẩm */
+.bar{
+	width: 30%;
+	margin:0 auto;
+	border:2px solid rgb(226, 43, 144);
+	border-radius: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;;
+}
+
+.bar  h4{
+	text-align: center;
+	margin: 0 auto;
+	padding: 10px;
+	color: #fa0979;
+	font-size: 1.3rem;
+}
+.items{
+	width: 100%;
+	height: auto;
+}
+.item{
+	width:90%;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left:6%;
+	box-sizing: border-box;
+	margin-bottom: 50px;
+}
+.Ecovacs{
+	width:23%;
+	height: auto;
+	background-color: rgb(255, 255, 255);
+	border: 3px solid rgb(214, 209, 209);
+	box-shadow: 1px 1px  rgb(133, 120, 120);
+	border-radius: 10px;
+	margin: 0.6%;
+	position: relative;
+}
+.Ecovacs img{
+	width:100%;
+}
+.Ecovacs .imgbx img:hover{
+	transform: scale(1.2);
+}
+.Ecovacs div.imgbx {
+	overflow: hidden;
+	transition: 0.5s ease-in-out;
+	transform-origin: right;
+}
+
+
+
+/* kết thúc sản phẩm */
+
+
+ /* testimonial */
+.testimonial{
+    width: 100%;
+    height: auto;
+	padding-bottom: 50px;
+	background-color: rgba(255, 255, 255,0.6);
+	margin-bottom: 70px;
+}
+
+.testimonial > .small-container{
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+.row{
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+    margin-right: 0px !important;
+    margin-left: 0px !important;  
+	/* 2 dòng trên fixbug lỗi của booktrap  */
+}
+.testimonial .col{
+	text-align: center;
+	padding: 40px 20px;
+	box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+	border-radius: 10px;
+	cursor: pointer;
+	margin-left: 2%;
+	transition: all 0.5s;
+}
+.testimonial .col:hover{
+	transform: translateY(-10px);
+	background-color: #ccc;
+}
+.rating.box{
+	position: relative;
+}
+.testimonial .col img{
+	width: 65px;
+	height: 65px;
+	border-radius: 50%;
+	margin-top: 20px;
+}
+.testimonial >.small-container .row .col > h4{
+	text-align: center;
+	margin-top: 30px;
+	font-weight: 500;
+	font-size: 18px;
+}
+
+ /* end testimonial */
+
+
+ /* brands */
+.brands{
+	 width: 100%;
+	 height: 100px
+ }
+ .brands > .small-container{
+	margin-bottom: 100px;
+ }
+ .small-container > .row > .col_brands{
+	width: 160px;
+	padding: 10px 20px;
+ }
+ .small-container > .row > .col_brands > img{
+	 width: 100%;
+	 cursor: pointer;
+	 filter: grayscale(100%);
+ }
+ .small-container > .row > .col_brands > img:hover{
+	filter: grayscale(0);
+ }
+ /* end brands */
+

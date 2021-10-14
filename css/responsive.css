@@ -1,0 +1,229 @@
+@charset "utf-8";
+/* tablet : width >= 740px and width < 1024px*/
+@media screen and (min-width: 768px) and (max-width: 1023px)
+{
+    .giohang p, .lienhe p{
+        display: none;
+    }
+    .giohang > a > img{
+        margin-top: 8px;
+    }
+    .lienhe > a > img{
+        margin-top: 3px;
+    }
+    .giohang, .lienhe{
+        margin-top: 5px;
+        padding: 5px !important;
+        height: 60px !important;
+    }
+    div.menu > div.container {
+        width: 720px !important;
+    }
+    .menu > .container > .drop > ul {
+        width: 100%;
+        margin-bottom: 0 !important;
+        height: 68px !important;
+    }
+    .menu > .container > .drop > ul > li > a{
+        padding:15px 15px !important;
+        margin-top: 5px;
+    }
+    .droptb{
+        margin: 0 !important;
+    }
+    .droptb > button{
+        padding: 15px 15px;
+        margin: 4px 0 10px 0 !important;
+    }
+    /* banner */
+    .carousel-inner{
+        width: 100%;
+        height: 300px !important;
+    }
+    /* product */
+    div.Ecovacs{
+        width:45% ;
+    }
+    /* testimonial */
+    .bar {
+        width: 50%;
+    }
+    .item{
+        margin-bottom: 30px;
+    }
+    .testimonial > .small-container{
+        width: 80%;
+    }
+    /* brands */
+    
+    div.row {
+    flex-wrap: wrap;
+    }
+    /* footer */
+    div.info.camket {
+        padding-left: 20px;
+    }
+   div.info.khachhang {
+        margin-left: 30px;
+    }
+    /* overlay */
+    div.card {
+        width: 90% !important;
+        margin-top: 20%;
+    }
+    div.card_form
+    {
+        grid-template-columns: none;
+        grid-column-gap: none;
+        grid-template-rows: 1fr 1fr;
+        grid-row-gap: 30px !important;
+    }
+    .col-right{
+        margin-left: 50px;
+    }
+    /* goup */
+    div#go-up ul{
+        display: flex;
+        flex-direction: row;
+        right: 28%;
+        bottom: 3px;
+        background-color: rgba(196, 196, 196, 0.4);
+    } 
+    div#go-up ul > li{
+        padding: 0 15px;
+    }
+    div#go-up ul > li > p{
+        color: rgb(7, 186, 241);
+    }
+    /* page sản phẩm */
+    section.main_product{
+        width: 95%;
+    }
+    .product_item-col{
+        width: 32%;
+        margin-bottom: 5px;
+    }
+    div.cart_list{
+        right: 0px;
+    }
+}
+/* mobile: width < 740px */
+@media screen and (max-width: 739px){
+   .hide_on-mobile{
+       display: none;
+   }
+   div.list{
+       display: block;
+   }
+   nav#nav, div#main {
+    height: 68px !important;
+   }
+   div#search {
+    width: 60%;
+   }
+   div.cart_list {
+       width: 300px;
+       right: 0px;
+       margin-right: -20px;
+   }
+   .carousel-inner{
+    width: 100%;
+    height: 180px !important;
+    }
+    div.bar {
+        width: 70%;
+    }
+    div.Ecovacs{
+        width:95% ;
+        margin-bottom: 10px;
+    }
+    div.row{
+        flex-direction: column;
+    }
+    div.row_brands-mobile{
+        flex-direction: row ;
+        flex-wrap: wrap ;
+    }
+    div#information .container{
+         justify-content: center;
+       flex-wrap: wrap;
+       padding: 0;
+    }
+    div.info.camket,div .info.khachhang {
+        padding: 0;
+        margin: 0 0 30px;
+    }
+    div.info{
+        width: 80%;
+        margin: 20px 0 30px ;
+        padding: 0;
+        
+    }
+     /* goup */
+     div#go-up ul{
+        display: flex;
+        flex-direction: row;
+        right: 5%;
+        bottom: 3px;
+        background-color: rgba(196, 196, 196, 0.4);
+    } 
+    div#go-up ul > li{
+        padding: 0 15px;
+    }
+    div#go-up ul > li > p{
+        color: rgb(7, 186, 241);
+    }
+      /* overlay */
+     div.card {
+        width: 95% !important;
+        margin-top: 23%;
+    }
+    div.card_form
+    {
+        grid-template-columns: none;
+        grid-column-gap: none;
+        grid-template-rows: 1fr 1fr;
+        grid-row-gap: 30px !important;
+    }
+    .col-right{
+        margin-left: 10px;
+    }
+ /* product */
+    .giohang > a > img{
+        margin-top: 8px;
+        margin-left: 4px;
+    }
+    section.main_product{
+        margin-top: 5px;
+    }
+    .product_items {
+        width: 100%;
+    }
+    .product_sort-bar{
+        padding: 15px 20px;
+    }   
+    .product_sort-bar > ul > li{
+        margin-left: 10px;
+    }
+    .product_sort-bar > ul > li > a{
+        display: block;
+        padding: 10px 0px;
+    }
+    .product_item-col{
+        width: 100%;
+    }
+    div.card-btn #quantity{
+        width: 30px;
+        padding-bottom: 2px;
+    }
+    .MenuProduct{
+        display: block;
+    }
+    div.loading > span{
+        margin-top: 70%;
+        margin-left: 45%;
+    }
+    /* div.card-btn button#addcart, button#buynow{
+        padding: 10px;
+    } */
+}
